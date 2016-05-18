@@ -1,0 +1,2 @@
+module com.ddui.qmlcomponents
+plugin QtQuickFileIO
