@@ -5,7 +5,17 @@
 ### 使用QtQuick技术开发酷炫的客户端
 * 使用QML开发客户端界面
 * 使用C++实现QML的插件
+* 代码使用如下:
 
+```
+import com.ddui.qmlcomponents 1.0
+DDuiFileIO{
+    id:fileIO
+}
+Component.onCompleted: {
+    fileIO.save("skajskas","yy.txt")
+}
+```
 
 ## 贡献
 
